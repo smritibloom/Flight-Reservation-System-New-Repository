@@ -7,8 +7,8 @@ public class Main {
         Flight flight= new Flight("6E123", "Domestic", 100,true,27,5 );
         Ticket ticket= new Ticket(78564392,"Delhi","Rajasthan","15/03/2022","10:30am","15/03/2022","1:30pm","3:00hour","27A", 4389,true,false);
         Passenger passenger= new Passenger(897654312,"Mack",1676543210,"b13mack@gmail.com","M.G.Road","Delhi","Delhi");
-        RegularTicket regularTicket= new RegularTicket("Food , Water, Snacks","Snacks");
-        TouristTicket touristTicket=new TouristTicket("Lemon Tree","Raipur");
+        RegularTicket regularTicket= new RegularTicket(78564392,"Delhi","Rajasthan","15/03/2022","10:30am","15/03/2022","1:30pm","3:00hour","27A", 4389,true,false,"Food , Water, Snacks","Snacks");
+        TouristTicket touristTicket=new TouristTicket(78564392,"Delhi","Rajasthan","15/03/2022","10:30am","15/03/2022","1:30pm","3:00hour","27A", 4389,true,false,"Lemon Tree","Raipur");
         Address address=new Address("M.G.Road","Delhi","Delhi");
         Contact contact= new Contact("Mack",1676543210,"b13mack@gmail.com");
         Location location=new Location("Raipur");

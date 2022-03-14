@@ -2,7 +2,15 @@ package com.company;
 
 public class Location {
 
-    String touristLocation;
+    private String touristLocation;
+
+    public String getTouristLocation() {
+        return touristLocation;
+    }
+
+    public void setTouristLocation(String touristLocation) {
+        this.touristLocation = touristLocation;
+    }
 
     public String getTouristLocationDetails(){
         return touristLocation;

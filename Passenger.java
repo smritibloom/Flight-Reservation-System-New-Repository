@@ -2,13 +2,65 @@ package com.company;
 
 public class Passenger {
 
-    int registrationId;
-    String passengerName;
-    double passengerPhoneNumber;
-    String passengerEmail;
-    String addressStreet;
-    String addressCity;
-    String addressState;
+    private int registrationId;
+    private String passengerName;
+    private double passengerPhoneNumber;
+    private String passengerEmail;
+    private String addressStreet;
+    private String addressCity;
+    private String addressState;
+
+    public void setRegistrationId(int registrationId) {
+        this.registrationId = registrationId;
+    }
+
+    public String getPassengerName() {
+        return passengerName;
+    }
+
+    public void setPassengerName(String passengerName) {
+        this.passengerName = passengerName;
+    }
+
+    public double getPassengerPhoneNumber() {
+        return passengerPhoneNumber;
+    }
+
+    public void setPassengerPhoneNumber(double passengerPhoneNumber) {
+        this.passengerPhoneNumber = passengerPhoneNumber;
+    }
+
+    public String getPassengerEmail() {
+        return passengerEmail;
+    }
+
+    public void setPassengerEmail(String passengerEmail) {
+        this.passengerEmail = passengerEmail;
+    }
+
+    public String getAddressStreet() {
+        return addressStreet;
+    }
+
+    public void setAddressStreet(String addressStreet) {
+        this.addressStreet = addressStreet;
+    }
+
+    public String getAddressCity() {
+        return addressCity;
+    }
+
+    public void setAddressCity(String addressCity) {
+        this.addressCity = addressCity;
+    }
+
+    public String getAddressState() {
+        return addressState;
+    }
+
+    public void setAddressState(String addressState) {
+        this.addressState = addressState;
+    }
 
     public int getRegistrationId(){
         return registrationId;

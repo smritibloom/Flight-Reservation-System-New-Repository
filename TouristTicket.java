@@ -1,9 +1,25 @@
 package com.company;
 
-public class TouristTicket {
+public class TouristTicket extends Ticket{
 
-    String hotelAddress;
-    String touristLocation;
+    private String hotelAddress;
+    private String touristLocation;
+
+    public String getHotelAddress() {
+        return hotelAddress;
+    }
+
+    public void setHotelAddress(String hotelAddress) {
+        this.hotelAddress = hotelAddress;
+    }
+
+    public String getTouristLocation() {
+        return touristLocation;
+    }
+
+    public void setTouristLocation(String touristLocation) {
+        this.touristLocation = touristLocation;
+    }
 
     public String getHotelAddressDetails(){
         return hotelAddress;
@@ -12,7 +28,8 @@ public class TouristTicket {
         return touristLocation;
     }
 
-    public TouristTicket(String hotelAddress,String touristLocation){
+    public TouristTicket(int pnrNumber,String departureLocation,String arrivalLocation,String departureDate,String departureTime,String arrivalDate,String arrivalTime,String journeyDuration,String seatNumber, float ticketPrice,boolean confirmation,boolean ticketCancel,String hotelAddress,String touristLocation){
+        super(pnrNumber,departureLocation,arrivalLocation,departureDate,departureTime,arrivalDate,arrivalTime,journeyDuration,seatNumber,ticketPrice,confirmation,ticketCancel);
         this.hotelAddress=hotelAddress;
         this.touristLocation=touristLocation;
     }
